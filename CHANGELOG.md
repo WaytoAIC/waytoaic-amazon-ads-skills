@@ -8,7 +8,7 @@ The format is intentionally simple and optimized for release notes and repositor
 
 ### Changed
 
-- No unreleased changes yet
+- Refreshed the README top branding block to match `reddit-market-monitor`, including Way to AIC community, WeChat, and Xiaozhixing images.
 
 ## [v1.0.1] - 2026-04-27
 
