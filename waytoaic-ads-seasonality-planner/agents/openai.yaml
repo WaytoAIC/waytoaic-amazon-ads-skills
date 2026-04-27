@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Seasonality"
+  short_description: "Plan seasonal and peak-period ad rhythm"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-seasonality-planner to map my product into the A-B-C-D-E seasonal ad rhythm."
+policy:
+  allow_implicit_invocation: true

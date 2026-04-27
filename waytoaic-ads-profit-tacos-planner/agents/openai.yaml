@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Profit TACOS"
+  short_description: "Plan CPA, ACOS, TACOS, and profit targets"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-profit-tacos-planner to reverse-plan ad orders, natural orders, and TACOS."
+policy:
+  allow_implicit_invocation: true

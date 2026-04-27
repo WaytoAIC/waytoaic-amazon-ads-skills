@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Ad Router"
+  short_description: "Route Soju ad tasks to the right workflow"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-ad-router to choose the right Soju advertising workflow for my ASIN, report, or keyword task."
+policy:
+  allow_implicit_invocation: true

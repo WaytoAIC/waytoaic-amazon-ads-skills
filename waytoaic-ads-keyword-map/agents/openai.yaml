@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Keyword Map"
+  short_description: "Build keyword maps, roots, and negatives"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-keyword-map to build a Soju-style keyword map from competitor ASINs and seed keywords."
+policy:
+  allow_implicit_invocation: true

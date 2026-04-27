@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Launch Test"
+  short_description: "Plan baseline bid and launch tests"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-launch-test-planner to design baseline bid tests and launch campaign structure."
+policy:
+  allow_implicit_invocation: true

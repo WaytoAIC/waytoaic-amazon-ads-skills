@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Scale Shrink"
+  short_description: "Plan ad scaling, stabilizing, and shrinking"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-scale-shrink-planner to turn ad diagnosis into scale or shrink actions."
+policy:
+  allow_implicit_invocation: true

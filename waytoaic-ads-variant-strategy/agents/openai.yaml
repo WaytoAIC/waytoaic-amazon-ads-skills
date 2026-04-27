@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Variant Strategy"
+  short_description: "Assign main and secondary variation roles"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-variant-strategy to decide main and secondary child ASIN advertising roles."
+policy:
+  allow_implicit_invocation: true

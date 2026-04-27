@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Placement Control"
+  short_description: "Plan TOS, ROS, PP bid and placement control"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-bid-placement-control to evaluate TOS, ROS, PP placement performance and bid changes."
+policy:
+  allow_implicit_invocation: true

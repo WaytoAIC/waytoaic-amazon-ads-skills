@@ -1,0 +1,7 @@
+interface:
+  display_name: "WaytoAIC-Ads Ad Diagnosis"
+  short_description: "Diagnose Amazon Ads reports with Soju rules"
+  brand_color: "#2563EB"
+  default_prompt: "Use $waytoaic-ads-ad-report-diagnosis to analyze my Amazon Ads reports and produce an action plan."
+policy:
+  allow_implicit_invocation: true
