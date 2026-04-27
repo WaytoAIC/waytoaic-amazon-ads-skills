@@ -1,4 +1,4 @@
-# Additional Terms for waytoaic-soju-ads-skills
+# Additional Terms for waytoaic-amazon-ads-skills
 
 These additional terms supplement the license referenced in [LICENSE.md](./LICENSE.md).
 
@@ -39,7 +39,7 @@ You must keep all copyright, attribution, and license notices intact in source d
 
 Any public redistribution of this repository or a derivative must clearly attribute the original project as:
 
-- `waytoaic-soju-ads-skills`
+- `waytoaic-amazon-ads-skills`
 - Original author: Wesley Zane
 
 ## 5. Commercial licensing

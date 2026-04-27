@@ -1,4 +1,4 @@
-# waytoaic-soju-ads-skills
+# waytoaic-amazon-ads-skills
 
 ## Way to AIC | 通往AI电商之路
 
@@ -37,24 +37,24 @@ Way to AIC 不是教学，不是工具，而是一条所有电商人共同走的
 
 ```bash
 # Codex
-curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-soju-ads-skills/v1.0.0/install.sh | bash -s -- --target codex --ref v1.0.0
+curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-amazon-ads-skills/v1.0.1/install.sh | bash -s -- --target codex --ref v1.0.1
 ```
 
 ```bash
 # OpenClaw
-curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-soju-ads-skills/v1.0.0/install.sh | bash -s -- --target openclaw --ref v1.0.0
+curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-amazon-ads-skills/v1.0.1/install.sh | bash -s -- --target openclaw --ref v1.0.1
 ```
 
 ```bash
 # Custom skills root
-curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-soju-ads-skills/v1.0.0/install.sh | bash -s -- --dest "$(pwd)/skills" --ref v1.0.0
+curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-amazon-ads-skills/v1.0.1/install.sh | bash -s -- --dest "$(pwd)/skills" --ref v1.0.1
 ```
 
 安装脚本会把 `shared/` 和全部 `waytoaic-ads-*` skill 目录直接安装到目标 `skills` 根目录，而不是再额外套一层仓库目录。
 
 ---
 
-一套把 Soju 风格亚马逊广告分析方法拆成可复用技能包的 skill suite，覆盖路由、关键词地图、起盘测试、报表诊断、广告位控制、放缩量、变体策略、利润/TACOS 和季节节奏。
+一套把亚马逊广告分析方法拆成可复用技能包的 skill suite，覆盖路由、关键词地图、起盘测试、报表诊断、广告位控制、放缩量、变体策略、利润/TACOS 和季节节奏。
 
 这套 skill 的边界很明确：
 
@@ -98,7 +98,7 @@ curl -fsSL https://raw.githubusercontent.com/WaytoAIC/waytoaic-soju-ads-skills/v
 - `给我做一套新品基准竞价测试结构`
 - `用 Placement Report 看一下 TOS / ROS / PP 怎么调`
 - `结合 SIF 和 SellerSprite 做关键词地图`
-- `按 Soju 思路做父子体广告角色分工`
+- `做父子体广告角色分工`
 
 ### 仓库结构
 
@@ -125,7 +125,7 @@ waytoaic-ads-seasonality-planner/
 
 ## English
 
-This repository packages a Soju-style Amazon Ads skill suite for operator-facing analysis and planning.
+This repository packages an Amazon Ads skill suite for operator-facing analysis and planning.
 
 It covers:
 
@@ -152,7 +152,7 @@ These skills can gather MCP data, parse reports, calculate metrics, and draft ac
 - analyze an ASIN with the router skill
 - build a launch-test structure before scale
 - diagnose Search Term / Targeting / Placement exports
-- produce Soju-style scale or shrink plans
+- produce scale or shrink plans
 - assign traffic roles across parent-child variations
 
 ### Notes

@@ -2,7 +2,7 @@
 
 set -eu
 
-REPO="WaytoAIC/waytoaic-soju-ads-skills"
+REPO="WaytoAIC/waytoaic-amazon-ads-skills"
 REF="main"
 TARGET="auto"
 DEST_ROOT=""
@@ -22,7 +22,7 @@ Options:
   --target   Install target. auto|codex|openclaw. Default: auto
   --dest     Override the skills root directory. The script installs shared/ and all waytoaic-ads-* folders into DIR
   --ref      Branch or tag to install. Default: main
-  --repo     GitHub repo in OWNER/REPO form. Default: WaytoAIC/waytoaic-soju-ads-skills
+  --repo     GitHub repo in OWNER/REPO form. Default: WaytoAIC/waytoaic-amazon-ads-skills
   -h, --help Show this help
 EOF
 }
@@ -159,5 +159,5 @@ if [ "$installed_any" != true ]; then
   exit 1
 fi
 
-echo "All Soju ads skill directories were installed into: $DEST_ROOT"
+echo "All Amazon ads skill directories were installed into: $DEST_ROOT"
 echo "If your app caches skills, restart it to pick up the latest version."
